@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "dogdayafternoon",
+      "year": "1975",
+      "runtime": "125 min",
+      "genre": "biography",
+      "director": "sidney lamet"
+    },
+    {
+      "title": "nnnnnnnnnnnn",
+      "year": "1952",
+      "runtime": "1111111",
+      "genre": "kkkkkkkk",
+      "director": "bbbbbbb",
+      "id": 2
+    },
+    {
+      "title": "nnnnnnnn",
+      "year": "121212",
+      "runtime": "22222",
+      "genre": "hhh",
+      "director": "mmmmm",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

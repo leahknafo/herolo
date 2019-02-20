@@ -1,0 +1,27 @@
+<div class="container">
+  <form class="col-4">
+    <div class="form-group">
+      <label>Title</label>
+      <input type="text" class="form-control" aria-describedby="emailHelp" name="title" [(ngModel)]="this.currentMovie.title">
+    </div>
+    <div class="form-group">
+      <label>Year</label>
+      <input type="text" class="form-control" name="year" [(ngModel)]="this.currentMovie.year">
+    </div>
+    <div class="form-group">
+      <label>RunTime</label>
+      <input type="text" class="form-control" name="runtime" [(ngModel)]="this.currentMovie.runtime">
+    </div>
+    <div class="form-group">
+      <label>Genre</label>
+      <input type="text" class="form-control" name="genre" [(ngModel)]="this.currentMovie.genre">
+    </div>
+    <div class="form-group">
+      <label>Director</label>
+      <input type="text" class="form-control" name="director" [(ngModel)]="this.currentMovie.director">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="saveData()">save</button>
+    &nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary" (click)="cancel()">cancel</button>
+  </form>
+</div>
